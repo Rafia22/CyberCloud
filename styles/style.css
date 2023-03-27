@@ -1,0 +1,272 @@
+/* 
+filename: rafia sanjida chowdhury
+author: rafia sanjida chowdhury
+created: 20/03/2023
+last modified: 26/03/2023
+description: css file for cyber cloud
+*/
+
+
+*{
+    box-sizing: border-box;
+}
+
+/* setting the background colour  */
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/*setting font family and style*/
+* {
+    font-family: "Times New Roman", Times, serif;    /* grouping slector */
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;  
+    height: auto;
+}
+
+/*header cointing logo and menu list */
+header {
+    margin-top: 15px;
+    text-align: center;
+}
+
+ /*styling menu list*/
+.menu {                         /* class selector */
+    list-style: none;
+    display: inline-block ;
+    margin: 0.5em ;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.2em;
+    letter-spacing: 0.2em;
+    background-color: #AFEEEE;
+
+}
+
+a { 
+    color: rgb(82, 73, 73);
+}
+
+nav a:hover {	/* pseudo class */
+    color: rgb(165, 146, 146);
+	font-size: 150%;                        /* enhancement 1: text size increases */
+}
+
+a:visited {    /* pseudo class */
+  color: #0000FF;
+}
+
+/* styling footer */
+footer {  
+	width : 100%;
+	position: relative  ;
+	text-align: center;
+    font-size: small;
+    border-top-style: solid;
+    border-color: #000000;
+}
+
+
+/* index.html  */
+.bg {                        /* contextual selector */
+    width: 100%;
+}
+
+.intro {
+	position: absolute;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: large;
+    font-weight: lighter; 
+    text-align: center;
+}
+
+.intro01 {
+	position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: medium;
+    font-weight: lighter; 
+    text-align: left;
+}
+
+.tagline {
+    position: absolute;
+    top: 160%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    font-weight: lighter; 
+    text-align: center;
+	margin: 0 5%;
+    letter-spacing: 2px; /* to add spaces between letters */
+}
+ 
+/* enhancement 2: using button to make it easier for the user to go to application page */
+.button {
+	position: absolute;
+    top: 190%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	
+}
+
+
+
+/* jobs.html */
+h1 {
+    font-family: "Times New Roman", Times, serif;    /* grouping slector */
+	color: black; /* element selector */
+    background-color: lightblue;
+    margin: 0 20% ;
+    text-align: center;
+}
+
+h2 {
+	margin: 0 20% ;
+    text-align: left;
+}
+
+p::first-line {                /* pseudo element */
+  color: rgb(0, 0, 139);
+}
+
+#aside {                    /* id selector */
+    width: 25%;
+    margin-right: 10%;
+    margin-top: 2%;
+    float: right;
+    padding : 15px; 
+    border-style: solid ;
+    border-color: rgb(167, 153, 153);
+    border-width: 4px;
+  }
+  
+
+.jobs{
+	margin: 0 5%  ;
+    text-align: left;
+}
+
+.section01, .section02 {
+    margin: 1.5% 15%;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+th, td {
+    background-color:#779ecb; /* background for table in about.html */ 
+    color: white;
+    padding-right: 20px ;
+    padding-left: 20px;
+}
+
+.source { /* hyperlinked references for better user experience*/ 
+    color: black;
+    text-decoration: underline;
+}
+
+
+/* apply.html */
+.application_form {
+    color: rgb(105, 91, 91);
+    margin: 0 10% ;
+}
+
+
+/* about.html */
+figure {             /* styling my image */
+    box-sizing: border-box;
+    float: right;
+	width: 180px;
+    height: 200px;
+    margin-right: 25%;
+	margin-top: 5.5%;
+	border: 2px solid rgb(167, 153, 153);
+	padding: 2px;
+}
+
+.list {
+	text-align:center;
+	margin:0;
+	padding: 0;
+}
+
+.email{
+	text-align: left;
+    font-weight: bold;
+    color: #535151;
+}
+	
+
+/* styling definition list */ 
+dl {    
+    float: left;
+	margin-top: 5%;
+    margin-left: 15%;
+    border: solid rgb(167, 153, 153);
+    padding: 20px;
+    font-size: 15px;
+    width: 40%;
+}
+dl dt {
+    width: 25%;
+    float: left;
+    font-weight: bold;
+    color: #535151;
+  }
+  
+/* my class timetable */
+.mytimetable {
+    margin: 25% 10% 5% 10%; /* to ensure the timetable stays below the definition list and figure  */
+	text-align: center;
+}
+
+
+th {
+    font-weight: bold;
+}
+
+/* enhancement.html */
+
+.enhancement {
+    margin: 25% 10% 5% 10%; 
+	text-align: left;
+	padding: 0.2em;
+
+    list-style: none;
+    display: inline-block ;
+    margin: 0.5em ;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0.2em;
+    letter-spacing: 0.2em;
+    background-color: #AFEEEE;
+}
+
+
+
+
+
